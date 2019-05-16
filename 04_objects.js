@@ -53,15 +53,18 @@ const shop = {
 
 const shopTitle = () => {
   // Return the shop title (you have access to the shop object from here)
+   console.log(shop.title)
 }
 
 const upperCase = (string) => {
   // Return an uppercase version of string
+  console.log(string.toUpperCase())
 }
 
 const upperCaseShopTitle = () => {
   // Return an uppercase shop title.
   // Don't repeat yourself. Use the two functions you just built!
+  
 }
 
 const productById = (productId) => {
